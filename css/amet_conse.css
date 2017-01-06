@@ -1,0 +1,285 @@
+@import url(http://allfont.ru/allfont.css?fonts=fjalla);
+@font-face {
+    font-family:SourceSansPro-Regular ; /* √арнитура шрифта */
+    src: url(fonts/SourceSansPro-Regular.eot); /* ƒл¤ IE5-8 */
+    src: local(SourceSansPro-Regular), url(fonts/SourceSansPro-Regular.ttf); /* ƒл¤ остальных браузеров */
+   }
+
+
+
+
+.header{
+	background:#3f4b51; 
+}
+#sitename{
+	 font-family: 'FjallaOne', arial; font-size:30px; color:#fff; float:left; 
+}
+.icons{
+	margin:13px 0;
+}
+.search{
+	width: 220px; height: 36px; background:#364045; 
+	 padding:0 10px; margin:13px 0 13px 5px;
+	-webkit-border-radius:5px;
+	   -moz-border-radius:5px;
+	    -ms-border-radius:5px;
+	     -o-border-radius:5px;
+	        border-radius:5px;
+}
+input[type="search"]{
+	margin-top:5px; width:175px; background:#364045; border:none; color:#fff;
+}
+.search img{
+	cursor: pointer; float:right; margin-top:6px;
+}
+
+
+
+
+.main_bg{
+	background: #e4e4e4;  padding:54px 0 40px 0;
+}
+
+.top_menu_wrapper{
+	 background: #2abde9; text-align: center;
+}
+.navbar{
+	margin-bottom: 0 ;
+}
+.navbar-nav > li > a{
+	padding:28px 27px; font-family:'FjallaOne', arial; font-size:14px; color:#fff !important; 
+}
+.navbar-nav > li{
+	border-right:1px solid #55caed;
+}
+.navbar-nav > li:first-child{
+	border-left:1px solid #55caed;
+}
+.navbar-nav > li:hover{
+	background: #55caed;
+}
+.menu{
+	display: inline-block; margin-bottom: -5px;
+}
+
+
+
+
+.slider_content{
+	background: #fff; padding:40px 0; text-align: center;
+}
+.slider_content h1{
+	margin:0; font-family:'FjallaOne', arial; font-size:30px; color:#3f4b51;
+}
+.slider_content h6{
+	 font-family:'FjallaOne', arial; font-size:16px; color:#3f4b51;
+}
+.slider_content_button{
+	background:#3f4b51; font-family:'FjallaOne', arial; font-size:20px; color:#fff; border:none;
+}
+.slider_img_left {
+	position:absolute; top:50%;
+}
+.slider_img_right{
+	position:absolute; top:50%; right:50%;
+} 
+
+
+
+
+.photo_block_wrapper{
+	background: #fff; padding:60px 0; text-align: center;
+}
+.photo_block_wrapper h3{
+	 font-family:'FjallaOne', arial; font-size:20px; color:#3f4b51;
+}
+.photo_block_wrapper p{
+	 font-family:'FjallaOne', arial; font-size:16px; color:#8d8c8c;
+}
+.photo_block_wrapper hr{
+	width: 60px; margin-bottom: 36px;
+}
+.photo_block{
+	overflow: hidden; width:600px; margin:0 auto; 
+}
+.photo{
+	float:left; margin:0 15px; 
+}
+
+
+
+
+.info_block_wrapper{
+	background: #f7f7f7; overflow: hidden; padding:60px 0;
+}
+.info_block_top img{
+	float:left;
+}
+.info_block_title{
+	float: left; margin-left:18px;
+}
+.info_block_title h3{
+	font-family:'FjallaOne', arial; font-size:20px; color:#3f4b51; margin:0;
+}
+.info_block_title p{
+	font-family:'SourceSansPro-Regular'; font-size:16px; color:#2abde9; margin-bottom:30px;
+}
+.info_block p{
+	font-family:'SourceSansPro-Regular'; font-size:14px; color:#8d8c8c; 
+}
+.more{
+	background: #2abde9; border:none; font-family:'FjallaOne', arial; font-size:16px; color:#fff; 
+    width: 70px; padding-left:8px;
+}
+.more img{
+	margin-top:-4px; margin-left: 5px;
+}
+.more:hover{
+	background: #55caed;
+}
+.more:hover span{
+	color:#fff;
+}
+
+
+
+
+.content_bottom_block > img{
+	float:left;
+}
+.content_bottom_block{
+	margin-left:30px;
+}
+.content_bottom_block hr{
+	margin:30px 0; 
+}
+.bottom_block{
+	background:#fff; padding:60px 0; overflow: hidden;
+}
+.content_bottom_block_text{
+	float:left; width:67%; margin-left:30px;
+}
+.content_bottom_block_text h3{
+	font-family:'FjallaOne', arial; font-size:20px; color:#3f4b51; margin:0;
+}
+.content_bottom_block_text h6{
+	font-family:'SourceSansPro-Regular'; font-size:16px; color:#2abde9; margin:0 0 23px 0;
+}
+.content_bottom_block_text p{
+	font-family:'SourceSansPro-Regular'; font-size:14px; color:#8d8c8c; margin:0 0 25px 0; 
+}
+#forma input, .form_textarea{
+	margin-bottom:20px; border:1px solid #ebebeb; box-shadow: none; background: #f7f7f7;
+	font-family:'SourceSansPro-Regular'; font-size:14px; color:#8d8c8c; height: 40px;
+}
+#forma .form_textarea{
+	height: 119px;
+}
+#forma .form_textarea:focus{
+	border:none; box-shadow: 0 0 0;
+}
+.btn_submit{
+	background: #2abde9; border:none; font-family:'FjallaOne', arial; font-size:16px; color:#fff;
+}
+.btn_submit:hover{
+	background: #55caed; color:#fff;
+}
+
+
+
+
+.footer{
+	background: #3f4b51; padding: 60px 0;
+}
+.footer_menu ul{
+	list-style: none; margin:0; padding:0; 
+}
+.footer_menu ul li{
+	margin:0; border-bottom: 1px solid #4c5b61; padding: 10px 0;
+}
+.footer_menu ul li:last-child{
+	border:none;
+}
+.footer_menu ul li a{
+	text-decoration: none; font-family:'SourceSansPro-Regular'; font-size:14px; color:#8099a1;
+}
+.footer_menu ul li a:hover{
+	color:#fff;
+}
+.footer_menu h3{
+	font-family:'FjallaOne', arial; font-size:20px; color:#fff;
+}
+
+
+
+
+.bottom_footer{
+	background: #364045; padding: 40px 0;
+}
+.bottom_footer span{
+	font-family:'SourceSansPro-Regular'; font-size:14px; color:#8099a1;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 1200px){
+.middle_info_block_top{padding:20px;}
+#forma{padding:20px;}
+}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.info_block{margin-bottom: 20px;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) { 
+.footer_menu{text-align: center;}
+.menu{display: block;}
+.top_menu_wrapper{text-align:left;}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 365px) {
+#sitename{float:none; width:112px; margin:13px auto;}
+.search{float:none !important; margin:0 auto; width:220px;}
+.icons{float:none !important; width:116px; margin:13px auto;}	
+
+}
+
+@media only screen and (max-width : 607px) {
+.menu{width: 100%;}
+}
+
+@media only screen and (max-width : 614px) {
+.photo_block{width:100%;}
+.photo{float:none;}
+}
+
+@media only screen and (max-width : 666px) {
+.content_bottom_block{text-align: center;}
+.content_bottom_block > img{float:none;}
+.content_bottom_block_text{float:none; margin:0; width:100%;}
+}
+
+@media only screen and (max-width :338px) {
+.form_block{text-align: center;}
+.info_block_title{float: none; margin:0;}
+.info_block_top img{float:none;}
+.info_block_title h3{margin-top:10px;}
+.info_block{text-align: center;}
+.content_bottom_block{margin:0;}
+.content_bottom_block_text h3{margin-top:10px;}
+}
